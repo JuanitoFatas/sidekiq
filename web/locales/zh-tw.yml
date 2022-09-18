@@ -2,52 +2,67 @@
 zh-tw:
   Actions: 動作
   AddToQueue: 增加至佇列
-  AreYouSure: 你確定？
-  AreYouSureDeleteJob: 你確定要刪除這個工作嗎？
-  AreYouSureDeleteQueue: 你確定要刪除%{queue}這個佇列？
+  AreYouSure: 確定？
+  AreYouSureDeleteJob: 確定要刪除這個工作嗎？
+  AreYouSureDeleteQueue: 確定要刪除%{queue}佇列？這會刪除佇列裡的所有工作，佇列將會在有新工作時重新出現。
   Arguments: 參數
+  BackToApp: 回首頁
   Busy: 忙碌
   Class: 類別
   Connections: 連線
+  CreatedAt: 建立時間
   CurrentMessagesInQueue: 目前在<span class='title'>%{queue}</span>的工作
   Dashboard: 資訊主頁
-  Dead: 停滯
-  DeadJobs: 停滯工作
+  Dead: 失效
+  DeadJobs: 失效工作
   Delete: 刪除
-  DeleteAll: 刪除全部
+  DeleteAll: 全部刪除
   Deploy: 佈署
   Enqueued: 已佇列
   Error: 錯誤
-  ErrorBacktrace: 錯誤的回調追踨
+  ErrorBacktrace: 詳細錯誤訊息
   ErrorClass: 錯誤類別
   ErrorMessage: 錯誤訊息
   ExecutionTime: 執行時間
   Extras: 額外的
   Failed: 已失敗
   Failures: 失敗
+  Failure: 失敗
   GoBack: ← 返回
   History: 歷史資料
   Job: 工作
   Jobs: 工作
-  LastRetry: 最後一次重試
+  Kill: 取消
+  KillAll: 全部取消
+  LastRetry: 上次重試
+  Latency: 延時
   LivePoll: 即時輪詢
   MemoryUsage: 記憶體使用量
+  Name: 名稱
   Namespace: 命名空間
   NextRetry: 下次重試
-  NoDeadJobsFound: 沒有發現任何停滯的工作
-  NoRetriesFound: 沒有發現可重試
-  NoScheduledFound: 沒有發現已排程的工作
+  NoDeadJobsFound: 找無任何失效的工作
+  NoRetriesFound: 找無可重試的工作
+  NoScheduledFound: 找無已排程的工作
+  NotYetEnqueued: 尚未進入佇列
   OneMonth: 一個月
   OneWeek: 一週
   OriginallyFailed: 原本已失敗
+  Pause: 已暫停
+  Paused: 已暫停
   PeakMemoryUsage: 尖峰記憶體使用量
+  Plugins: 外掛
+  PollingInterval: 輪詢週期
+  Process: 程序
   Processed: 已處理
   Processes: 處理中
   Queue: 佇列
   Queues: 佇列
+  Quiet: 暫停
+  QuietAll: 全部暫停
   Realtime: 即時
   Retries: 重試
-  RetryAll: 重試全部
+  RetryAll: 全部重試
   RetryCount: 重試次數
   RetryNow: 馬上重試
   Scheduled: 已排程
@@ -58,14 +73,27 @@ zh-tw:
   Size: 容量
   Started: 已開始
   Status: 狀態
+  Stop: 強制暫停
+  StopAll: 全部強制暫停
   StopPolling: 停止輪詢
+  Success: 成功
+  Summary: 摘要
   Thread: 執行緒
   Threads: 執行緒
   ThreeMonths: 三個月
   Time: 時間
+  Unpause: 重啟
   Uptime: 上線時間 (天數)
+  Utilization: 使用率
   Version: 版本
   When: 當
-  Worker: 工人
+  Worker: 工作程序
   active: 活動中
   idle: 閒置
+  Metrics: 計量
+  NoDataFound: 找無資料
+  TotalExecutionTime: 總執行時間
+  AvgExecutionTime: 平均執行時間
+  Context: 上下文
+  Bucket: 桶
+  NoJobMetricsFound: 找無工作相關計量資料

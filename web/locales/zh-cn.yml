@@ -2,63 +2,80 @@
 zh-cn:
   Actions: 动作
   AddToQueue: 添加至队列
-  AreYouSure: 你确定？
-  AreYouSureDeleteJob: 你确定要删除这个作业么？
-  AreYouSureDeleteQueue: 你确定要删除%{queue}这个队列？
+  AreYouSure: 确定？
+  AreYouSureDeleteJob: 确定要删除这个任务么？
+  AreYouSureDeleteQueue: 确定要删除%{queue}这个队列？这会删除队列里的所有任务，隊列將會在有新任務時重新出現。
   Arguments: 参数
+  BackToApp: 回首页
   Busy: 执行中
   Class: 类别
   Connections: 连接
-  CurrentMessagesInQueue: 目前在<span class='title'>%{queue}</span>的作业
+  CreatedAt: 建立时间
+  CurrentMessagesInQueue: 目前在<span class='title'>%{queue}</span>的任务
   Dashboard: 信息板
-  Dead: 已停滞
-  DeadJobs: 已停滞作业
+  Dead: 失效
+  DeadJobs: 失效任务
   Delete: 删除
   DeleteAll: 删除全部
   Deploy: 部署
   Enqueued: 已进入队列
   Error: 错误
-  ErrorBacktrace: 错误的回调追踪
+  ErrorBacktrace: 错误细节
   ErrorClass: 错误类别
   ErrorMessage: 错误消息
   ExecutionTime: 执行时间
   Extras: 额外的
   Failed: 已失败
   Failures: 失败
+  Failure: 失败
   GoBack: ← 返回
   History: 历史记录
-  Job: 作业
-  Jobs: 作业
+  Job: 任务
+  Jobs: 任务
+  Kill: 终止
+  KillAll: 全部终止
   LastRetry: 最后一次重试
+  Latency: 延迟
   LivePoll: 实时轮询
   MemoryUsage: 内存占用
+  Name: 名称
   Namespace: 命名空间
   NextRetry: 下次重试
-  NoDeadJobsFound: 沒有发现任何已停滞的作业
+  NoDeadJobsFound: 沒有发现任何已停滞的任务
   NoRetriesFound: 沒有发现可重试
-  NoScheduledFound: 沒有发现计划作业
+  NoScheduledFound: 沒有发现计划任务
+  NotYetEnqueued: 尚未进入队列
   OneMonth: 一个月
   OneWeek: 一周
   OriginallyFailed: 原本已失败
   PeakMemoryUsage: 内存占用峰值
+  Plugins: 插件
+  PollingInterval: 轮询间隔
+  Process: 进程
   Processed: 已处理
   Processes: 处理中
   Queue: 队列
   Queues: 队列
+  Quiet: 停止
+  QuietAll: 全部停止
   Realtime: 实时
   Retries: 重试
-  RetryAll: 重试全部
+  RetryAll: 全部重试
   RetryCount: 重试次數
   RetryNow: 现在重试
   Scheduled: 已计划
-  ScheduledJobs: 计划作业
+  ScheduledJobs: 计划任务
   Seconds: 秒
   ShowAll: 显示全部
   SixMonths: 六个月
   Size: 容量
   Started: 已开始
   Status: 状态
+  Stop: 强制终止
+  StopAll: 全部强制停止
   StopPolling: 停止轮询
+  Success: 成功
+  Summary: 总结
   Thread: 线程
   Threads: 线程
   ThreeMonths: 三个月
@@ -66,6 +83,13 @@ zh-cn:
   Uptime: 上线时间 (天数)
   Version: 版本
   When: 当
-  Worker: 工人
+  Worker: 进程
   active: 活动中
   idle: 闲置
+  Metrics: 指标
+  NoDataFound: 无数据
+  TotalExecutionTime: 总执行时间
+  AvgExecutionTime: 平均执行时间
+  Context: 上下文
+  Bucket: 桶
+  NoJobMetricsFound: 无任务相关指标数据
